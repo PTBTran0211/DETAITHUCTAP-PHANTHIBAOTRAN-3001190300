@@ -1,0 +1,12 @@
+@import "./card";
+.listcard{
+    padding: 15px 0px;
+    margin-bottom: 30px;
+    &__title{
+        margin-bottom: 10px;
+    }
+    &__card{
+        display: flex;
+        flex-direction: row;
+    }
+}

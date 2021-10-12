@@ -1,0 +1,11 @@
+@import "./filtersection";
+.filterlist {
+    font-size: 14px;
+    color: #3d3f47;
+    background: white;
+    padding: 15px;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 15px;
+    border: 1px solid rgba(148,151,163,0.15);
+}

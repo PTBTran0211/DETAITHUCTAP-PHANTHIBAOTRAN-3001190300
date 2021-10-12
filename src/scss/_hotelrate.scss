@@ -1,0 +1,35 @@
+.hotelrate{
+    margin-top: 15px;
+    &__table{
+        background: #F9FBFC;
+        margin-bottom: 0px;
+        width: 100%;
+        max-width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+        border: 1px solid #e6e7ea;
+        thead{
+            border: 1px solid #e6e7ea;
+            tr{
+                border: 1px solid #e6e7ea;
+                th{
+                    background: #e6e7ea;
+                    padding: 8px 15px;
+                    color: #23527c !important;
+                    font-weight: 600;
+                    vertical-align: top;
+                    font-size: 18px;
+                }
+            }
+        }
+        tbody{
+            border: 1px solid #e6e7ea;
+            tr{
+                border: 1px solid #e6e7ea;
+                td{
+                    border: 1px solid #e6e7ea;
+                }
+            }   
+        }
+    }
+}

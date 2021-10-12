@@ -1,0 +1,37 @@
+.hotelinfo{
+    margin-bottom: 15px;
+    color: #555863; 
+    display: flex;
+    padding: 5px;
+    &__left{
+        &--header{
+            h1{
+                line-height: 1.25;
+                color: #003C71;
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 10px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+       
+        button{
+            transition: all .2s ease-in-out;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+            background: #F79321;
+            border: 1px solid #F79321;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 8px;
+            width: 100%;
+        }
+    }
+    
+}

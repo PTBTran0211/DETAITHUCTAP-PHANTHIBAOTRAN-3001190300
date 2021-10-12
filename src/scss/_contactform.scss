@@ -1,0 +1,48 @@
+.contactform{
+    background: white;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    padding: 15px 15px 15px 0px;
+    border: 1px solid rgba(148,151,163,0.15);
+    position: relative;
+    color: #3d3f47;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    &__left{
+        justify-content: space-between;
+        display: flex;
+    }
+    &__right{
+        width: 100%;
+        letter-spacing: -0.5px;
+        h5{
+            font-size: 21px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        &--contact{
+            display: flex;
+            color: #555863;
+            .region{
+                display: flex;
+                justify-content: flex-end;
+                min-width: 35px;
+                margin-right: 10px;
+            }
+            .phone{
+                display: flex;
+                color: #f79321;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 320px){
+    .contactform{
+        &__left{
+                margin-bottom: 15px;  
+        }
+    } 
+}

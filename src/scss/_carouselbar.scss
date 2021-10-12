@@ -1,0 +1,11 @@
+.carouselbar{
+    padding: 15px 0px;
+    margin-bottom: 30px;
+    &__title{
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    &__card{
+        width: 100%;
+    }
+}

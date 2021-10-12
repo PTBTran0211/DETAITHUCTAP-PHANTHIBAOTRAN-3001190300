@@ -1,0 +1,14 @@
+.inputgroup{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: none;
+    border-collapse: separate;
+    input{
+        width: calc(100% - 40px);
+    }
+    button{
+        height: 100%;
+        width: 40px;
+    }
+}

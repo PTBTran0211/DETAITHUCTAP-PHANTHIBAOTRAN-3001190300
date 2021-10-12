@@ -1,0 +1,18 @@
+.recommended{
+    &__header{
+        h4{
+            line-height: 1.5;
+            font-size: 16px;
+            font-weight: bold;
+            color: #003C71;
+        }
+    }
+    &__more{
+        width: 100%;
+        a{
+            color: #2574A9;
+            text-decoration: none;
+            text-align: center;
+        }
+    }
+}

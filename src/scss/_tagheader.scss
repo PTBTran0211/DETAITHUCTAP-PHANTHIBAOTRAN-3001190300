@@ -1,0 +1,61 @@
+.tagheader{
+    margin-bottom: 10px;
+    &__title{
+        margin-bottom: 2px;
+        width: 100%;
+        color: #003c71;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 5px;
+    }
+    &__rate{
+        margin-bottom: 5px;
+        width: 100%;
+        color: #003c71;
+        font-size: 16px;
+        font-weight: bold;
+        padding:5px;
+        &--star{
+            display: inline-block;
+            white-space: nowrap;
+            color: #fdbf65;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        &--heart{
+            font-size: 16px;
+            color: #e52822;
+        }
+        &--location{
+            margin-left: 5px;
+            color: #9fc43a;
+            font-size: 12px;
+            .review-score{
+                background: #9fc43a;
+                color: white;
+                padding: 2px 4px;
+                border-radius: 4px;
+                line-height: 1;
+                font-weight: bold;
+            }
+          
+            .review-count{
+                color: #828282;
+                font-weight: 200;
+            }
+        }
+    }
+    &__address{
+        margin-bottom: 2px;
+        display: inline-block;
+        width: 100%;
+        color: #40a6f2;
+        padding:5px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .tagheader{
+        max-width: 300px;
+    }
+}
+

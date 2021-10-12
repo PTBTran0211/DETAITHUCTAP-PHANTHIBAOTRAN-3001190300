@@ -1,0 +1,12 @@
+.heading{
+    &__title {
+    color: rgb(15, 11, 11);
+    margin-bottom: 5px;
+    font-size: 36px;
+    font-weight: bold;
+    }
+    &__description{
+      font-size: 18px;
+      color: #333;
+    }
+  }

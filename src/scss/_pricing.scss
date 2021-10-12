@@ -1,0 +1,62 @@
+.pricing{
+    width: 100%;
+    text-align: center;
+    &__group{
+        &--primary{
+            font-weight: bold;
+            color: #26bed6;
+            font-size: 21px;
+        }
+        &--room{
+            background: rgba(0,60,113,0.05);
+            border: 1px solid rgba(0,60,113,0.05);
+            font-weight: 500;
+            color: #003c71;
+            width: auto;
+            display: inline-block;
+            border-radius: 2px;
+            padding: 8px 15px;
+            position: relative;
+            text-align: left;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 320px){
+    .pricing{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (max-width: 479px){
+    .pricing{
+        &__group{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            .price{
+                display: flex;
+                order: 1;
+                margin-bottom: 0px;
+                flex-grow: 1;
+                text-align: right;
+                justify-content: flex-end;
+            }    
+        }
+    }
+    
+}
+@media only screen and (min-width: 768px){
+    .pricing{
+        display: flex;
+        flex-direction: column;
+        &__group{
+            &--room{
+                margin-top: 5px;
+            }
+        }
+    }
+    
+}

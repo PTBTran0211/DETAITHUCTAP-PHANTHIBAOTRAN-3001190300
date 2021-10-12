@@ -1,0 +1,80 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./scss/heading";
+@import "./scss/navbar";
+@import "./scss/footer";
+@import "./scss/hero";
+@import "./scss/formsearch";
+@import "./scss/listcard";
+@import "./scss/carouselbar";
+@import "./scss/gird";
+@import "./scss/supercard";
+@import "./scss/supercardbg";
+@import "./scss/hotelitem";
+@import "./scss/contactform";
+@import "./scss/sidebar";
+@import "./scss/filterlist";
+@import "./scss/recommended";
+@import "./scss/hoteldetail";
+@import "./scss/hotelinfo";
+@import "./scss/hotelsearch";
+@import "./scss/hotelrate";
+@import "./scss/room";
+@import "./scss/condition";
+@import "./scss/rate";
+@import "./scss/book";
+@import "./scss/roomfacility";
+@import "./scss/roomdescription";
+@import "./scss/roompolicy";
+@import "./scss/page404";
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  box-sizing: border-box;
+}
+.flex-row{
+  display: flex;
+}
+.limit-length{
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+.nopadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+.pull-left {
+  float: left !important;
+}
+h1,h2,h3,h4,h5,h6{
+  padding: 0px;
+  margin: 0px;
+}
+a{
+  text-decoration: none
+}
+

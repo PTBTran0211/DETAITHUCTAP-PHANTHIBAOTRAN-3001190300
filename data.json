@@ -1,0 +1,209 @@
+{
+"filters":[
+    {
+        "id":1,
+        "title":"Rate",
+        "items":["⭐","⭐⭐","⭐⭐⭐","⭐⭐⭐⭐","⭐⭐⭐⭐⭐"]
+    },
+      {
+          "id":2,
+          "title":"Loại hình nơi ở",
+          "items":["Khu nghỉ dưỡng (Resort)", "Biệt thự (Villa)", "Khách sạn (Hotel)", "Căn Hộ (Apartment)","Du thuyền (Cruise)","Dorm"]
+      },
+      {
+          "id":3,
+          "title":"Tiện ích",
+          "items":["Phòng gia đình", "Bãi biển riêng", "Hồ bơi", "Đưa đón sân bay miễn phí","Khu vui chơi trẻ em","Dịch vụ trọn gói"]
+      }
+
+  ],
+"hotels": [
+      { 
+          "id": 1, 
+          "name": "Khu nghỉ dưỡng Seava Hồ Tràm",
+          "img":"https://cdn1.ivivu.com/iVivu/2018/11/09/11/khu-nghi-duong-bien-sai-gon-ho-coc-14-374x280.jpg",
+          "rate": 8.7,
+          "recommended":87,
+          "address":" Tỉnh lộ 55,  X. Bưng Riềng ",
+          "option":["Dịch vụ Spa", "Bãi đậu xe ô tô"],
+          "price":2500000,
+          "premium":"Gôm ăn sáng",
+          "src":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.997400844639!2d107.48010781525932!3d10.50087016708966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175a2b06ef95a05%3A0xfc9584a6bd20ece8!2zU2VhdmEgSOG7kyBUcsOgbQ!5e0!3m2!1svi!2s!4v1633917302958!5m2!1svi!2s",
+          "policy":[{
+                "title":"Di chuyển",
+                "body":["1. Từ TP. Hồ Chí Minh đi Hồ Cốc, khách nên ưu tiên lựa chọn các hãng xe cao cấp như Hoa Mai, Toàn Thắng, Thiên Phú,.. thời gian di chuyển khoảng 1 giờ 40 phút, điểm thả khách là bến xe Bà Rịa/Long Hải. Tại đây, Quý khách tiếp tục di chuyển bằng taxi thêm 20 phút để đến được nơi lưu trú.",
+                    "2. Đối với phương tiện ô tô/xe máy cá nhân, thời gian di chuyển mất từ 2-3 giờ đồng hồ tùy mật độ giao thông."]
+                },{
+                    "title":"Hướng dẫn nhận phòng",
+                    "body":["- Quý khách vui lòng xuất trình giấy tờ tùy thân trùng tên với người đại diện trong Phiếu xác nhận đặt phòng của iVIVU.com để thủ tục nhận phòng được nhanh chóng","- Khách sạn sẽ yêu cầu khoản tiền đặt cọc là 2,000,000VNĐ/biệt thự/đêm tại thời điểm nhận phòng, khuyến khích sử dụng tiền mặt hoặc thẻ tín dụng (Credit card)."]
+                },{
+                    "title":"Hoạt động giải trí",
+                    "body":["Biển Hồ Cốc là một trong những vùng biển còn giữ được nét hoang sơ với làn nước trong xanh, khu bãi tắm rộng, độ dốc thoai thoải và đặc biệt đẹp thơ mộng nhờ các tảng đá nằm ngay trong bãi tắm tạo nên những đợt sóng biển tung bọt trắng xóa.","Điều đặc biệt ở biển Hồ Cốc không nơi nào có được là biển nằm gần Khu bảo tồn thiên nhiên rừng Bình Châu – Phước Bửu, nên cả không gian lẫn khí hậu ở đây vừa mang chút hơi biển, nhưng lại quyện với hương rừng tạo nên sự mát trong đến lạ. Gió biển không quá nồng và quang cảnh phảng phất chút sức sống của rừng xanh làm cho biển Hồ Cốc có nét hấp dẫn rất riêng."]
+                }
+                ],
+            "comments":[
+                {
+                    "id":1,
+                    "name": "Long",
+                    "title":"Hoạt động giải trí tuyệt vời"
+                },
+                {
+                    "id":2,
+                    "name": "An",
+                    "title":"Giá hợp lí"
+                }
+            ]
+        
+      },
+      { 
+          "id": 2, 
+          "name": "Khu nghỉ dưỡng Pandanus Phan Thiết",
+          "img":"https://cdn1.ivivu.com/iVivu/2020/06/29/16/khu-nghi-duong-pandanus-phan-thiet-cr-374x280.jpg",
+          "rate": 9.7,
+          "recommended":132,
+          "address":" Số 3 Nguyễn Hữu Thọ,  Mũi Né,  Thành phố Phan Thiết ",
+          "option":["Dịch vụ Spa", "Bãi đậu xe ô tô"],
+          "price":3500000,
+          "premium":"Gôm ăn sáng",
+          "src":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.242990233002!2d108.29484631526091!3d10.945008659051124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31768e3acb481687%3A0x15ad7cfcdecf83ed!2sPandanus%20Resort!5e0!3m2!1svi!2s!4v1633917367889!5m2!1svi!2s",
+          "policy":[{
+                "title":"Di chuyển",
+                "body":["1. Từ TP. Hồ Chí Minh đi Hồ Cốc, khách nên ưu tiên lựa chọn các hãng xe cao cấp như Hoa Mai, Toàn Thắng, Thiên Phú,.. thời gian di chuyển khoảng 1 giờ 40 phút, điểm thả khách là bến xe Bà Rịa/Long Hải. Tại đây, Quý khách tiếp tục di chuyển bằng taxi thêm 20 phút để đến được nơi lưu trú.",
+                    "2. Đối với phương tiện ô tô/xe máy cá nhân, thời gian di chuyển mất từ 2-3 giờ đồng hồ tùy mật độ giao thông."]
+                },{
+                    "title":"Hướng dẫn nhận phòng",
+                    "body":["- Quý khách vui lòng xuất trình giấy tờ tùy thân trùng tên với người đại diện trong Phiếu xác nhận đặt phòng của iVIVU.com để thủ tục nhận phòng được nhanh chóng","- Khách sạn sẽ yêu cầu khoản tiền đặt cọc là 2,000,000VNĐ/biệt thự/đêm tại thời điểm nhận phòng, khuyến khích sử dụng tiền mặt hoặc thẻ tín dụng (Credit card)."]
+                },{
+                    "title":"Hoạt động giải trí",
+                    "body":["Biển Hồ Cốc là một trong những vùng biển còn giữ được nét hoang sơ với làn nước trong xanh, khu bãi tắm rộng, độ dốc thoai thoải và đặc biệt đẹp thơ mộng nhờ các tảng đá nằm ngay trong bãi tắm tạo nên những đợt sóng biển tung bọt trắng xóa.","Điều đặc biệt ở biển Hồ Cốc không nơi nào có được là biển nằm gần Khu bảo tồn thiên nhiên rừng Bình Châu – Phước Bửu, nên cả không gian lẫn khí hậu ở đây vừa mang chút hơi biển, nhưng lại quyện với hương rừng tạo nên sự mát trong đến lạ. Gió biển không quá nồng và quang cảnh phảng phất chút sức sống của rừng xanh làm cho biển Hồ Cốc có nét hấp dẫn rất riêng."]
+                }
+                ]
+                ,
+            "comments":[
+                {
+                    "id":1,
+                    "name": "Long",
+                    "title":"Hoạt động giải trí tuyệt vời"
+                },
+                {
+                    "id":2,
+                    "name": "An",
+                    "title":"Giá hợp lí"
+                }
+            ]
+      }
+      ,
+      { 
+          "id": 3, 
+          "name": "Seahorse Resort & Spa Phan Thiết", 
+          "img":"https://cdn1.ivivu.com/iVivu/2020/10/19/15/1-1-374x280.jpg",
+          "rate": 8.7,
+          "recommended":141,
+          "address":" 16 Nguyễn Đình Chiểu,  Phường Hàm Tiến ",
+          "option":["Dịch vụ Spa", "Bãi đậu xe ô tô"],
+          "price":1453000,
+          "premium":"Gôm ăn sáng",
+          "src":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.2746931855972!2d108.19124311526095!3d10.942610559095293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317683a7abdc84cf%3A0x640ef52c7a524116!2sSeahorse%20Resort%20%26%20Spa!5e0!3m2!1svi!2s!4v1633917409797!5m2!1svi!2s",
+          "policy":[{
+                "title":"Di chuyển",
+                "body":["1. Từ TP. Hồ Chí Minh đi Hồ Cốc, khách nên ưu tiên lựa chọn các hãng xe cao cấp như Hoa Mai, Toàn Thắng, Thiên Phú,.. thời gian di chuyển khoảng 1 giờ 40 phút, điểm thả khách là bến xe Bà Rịa/Long Hải. Tại đây, Quý khách tiếp tục di chuyển bằng taxi thêm 20 phút để đến được nơi lưu trú.",
+                    "2. Đối với phương tiện ô tô/xe máy cá nhân, thời gian di chuyển mất từ 2-3 giờ đồng hồ tùy mật độ giao thông."]
+                },{
+                    "title":"Hướng dẫn nhận phòng",
+                    "body":["- Quý khách vui lòng xuất trình giấy tờ tùy thân trùng tên với người đại diện trong Phiếu xác nhận đặt phòng của iVIVU.com để thủ tục nhận phòng được nhanh chóng","- Khách sạn sẽ yêu cầu khoản tiền đặt cọc là 2,000,000VNĐ/biệt thự/đêm tại thời điểm nhận phòng, khuyến khích sử dụng tiền mặt hoặc thẻ tín dụng (Credit card)."]
+                },{
+                    "title":"Hoạt động giải trí",
+                    "body":["Biển Hồ Cốc là một trong những vùng biển còn giữ được nét hoang sơ với làn nước trong xanh, khu bãi tắm rộng, độ dốc thoai thoải và đặc biệt đẹp thơ mộng nhờ các tảng đá nằm ngay trong bãi tắm tạo nên những đợt sóng biển tung bọt trắng xóa.","Điều đặc biệt ở biển Hồ Cốc không nơi nào có được là biển nằm gần Khu bảo tồn thiên nhiên rừng Bình Châu – Phước Bửu, nên cả không gian lẫn khí hậu ở đây vừa mang chút hơi biển, nhưng lại quyện với hương rừng tạo nên sự mát trong đến lạ. Gió biển không quá nồng và quang cảnh phảng phất chút sức sống của rừng xanh làm cho biển Hồ Cốc có nét hấp dẫn rất riêng."]
+                }
+                ]
+                ,
+            "comments":[
+                {
+                    "id":1,
+                    "name": "Long",
+                    "title":"Hoạt động giải trí tuyệt vời"
+                },
+                {
+                    "id":2,
+                    "name": "An",
+                    "title":"Giá hợp lí"
+                }
+            ]
+      },
+      { 
+        "id": 4, 
+        "name": "Amaryllis Resort & Spa Phan Thiết", 
+        "img":"https://cdn1.ivivu.com/iVivu/2019/05/17/14/marina-bay-resort--374x280.jpg",
+        "rate": 7.9,
+        "recommended":84,
+        "address":" Khu phố 8,  phường Phú Hài ",
+        "option":["Dịch vụ Spa", "Bãi đậu xe ô tô"],
+        "price":1453000,
+        "premium":"Gôm ăn sáng",
+        "src":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.372840090813!2d108.16812381526093!3d10.935183159232375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317684ec5141708b%3A0x7144f7381b6174da!2sAmaryllis%20Resort!5e0!3m2!1svi!2s!4v1633917465088!5m2!1svi!2s",
+        "policy":[{
+              "title":"Di chuyển",
+              "body":["1. Từ TP. Hồ Chí Minh đi Hồ Cốc, khách nên ưu tiên lựa chọn các hãng xe cao cấp như Hoa Mai, Toàn Thắng, Thiên Phú,.. thời gian di chuyển khoảng 1 giờ 40 phút, điểm thả khách là bến xe Bà Rịa/Long Hải. Tại đây, Quý khách tiếp tục di chuyển bằng taxi thêm 20 phút để đến được nơi lưu trú.",
+                  "2. Đối với phương tiện ô tô/xe máy cá nhân, thời gian di chuyển mất từ 2-3 giờ đồng hồ tùy mật độ giao thông."]
+              },{
+                  "title":"Hướng dẫn nhận phòng",
+                  "body":["- Quý khách vui lòng xuất trình giấy tờ tùy thân trùng tên với người đại diện trong Phiếu xác nhận đặt phòng của iVIVU.com để thủ tục nhận phòng được nhanh chóng","- Khách sạn sẽ yêu cầu khoản tiền đặt cọc là 2,000,000VNĐ/biệt thự/đêm tại thời điểm nhận phòng, khuyến khích sử dụng tiền mặt hoặc thẻ tín dụng (Credit card)."]
+              },{
+                  "title":"Hoạt động giải trí",
+                  "body":["Biển Hồ Cốc là một trong những vùng biển còn giữ được nét hoang sơ với làn nước trong xanh, khu bãi tắm rộng, độ dốc thoai thoải và đặc biệt đẹp thơ mộng nhờ các tảng đá nằm ngay trong bãi tắm tạo nên những đợt sóng biển tung bọt trắng xóa.","Điều đặc biệt ở biển Hồ Cốc không nơi nào có được là biển nằm gần Khu bảo tồn thiên nhiên rừng Bình Châu – Phước Bửu, nên cả không gian lẫn khí hậu ở đây vừa mang chút hơi biển, nhưng lại quyện với hương rừng tạo nên sự mát trong đến lạ. Gió biển không quá nồng và quang cảnh phảng phất chút sức sống của rừng xanh làm cho biển Hồ Cốc có nét hấp dẫn rất riêng."]
+              }
+              ]
+              ,
+            "comments":[
+                {
+                    "id":1,
+                    "name": "Long",
+                    "title":"Hoạt động giải trí tuyệt vời"
+                },
+                {
+                    "id":2,
+                    "name": "An",
+                    "title":"Giá hợp lí"
+                }
+            ]
+    },
+    { 
+        "id": 5, 
+        "name": "The Cliff Resort & Residences Phan Thiết", 
+        "img":"https://cdn1.ivivu.com/iVivu/2019/11/18/14/khu-nghi-duong-the-grand-ho-tram-strip-vung-tau-1-800x450-374x280.jpg",
+        "rate": 8.7,
+        "recommended":37,
+        "address":" Khu phố 6,  phường Phú Hài ",
+        "option":["Dịch vụ Spa", "Bãi đậu xe ô tô"],
+        "price":1453000,
+        "premium":"Gôm ăn sáng",
+        "src":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.347386678281!2d108.17722401526088!3d10.937109859196799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317684e8a7e756db%3A0x7e8a340fdec624db!2sThe%20Cliff%20Resort%20%26%20Residences%2C%20Mui%20Ne!5e0!3m2!1svi!2s!4v1633917507552!5m2!1svi!2s",
+        "policy":[{
+              "title":"Di chuyển",
+              "body":["1. Từ TP. Hồ Chí Minh đi Hồ Cốc, khách nên ưu tiên lựa chọn các hãng xe cao cấp như Hoa Mai, Toàn Thắng, Thiên Phú,.. thời gian di chuyển khoảng 1 giờ 40 phút, điểm thả khách là bến xe Bà Rịa/Long Hải. Tại đây, Quý khách tiếp tục di chuyển bằng taxi thêm 20 phút để đến được nơi lưu trú.",
+                  "2. Đối với phương tiện ô tô/xe máy cá nhân, thời gian di chuyển mất từ 2-3 giờ đồng hồ tùy mật độ giao thông."]
+              },{
+                  "title":"Hướng dẫn nhận phòng",
+                  "body":["- Quý khách vui lòng xuất trình giấy tờ tùy thân trùng tên với người đại diện trong Phiếu xác nhận đặt phòng của iVIVU.com để thủ tục nhận phòng được nhanh chóng","- Khách sạn sẽ yêu cầu khoản tiền đặt cọc là 2,000,000VNĐ/biệt thự/đêm tại thời điểm nhận phòng, khuyến khích sử dụng tiền mặt hoặc thẻ tín dụng (Credit card)."]
+              },{
+                  "title":"Hoạt động giải trí",
+                  "body":["Biển Hồ Cốc là một trong những vùng biển còn giữ được nét hoang sơ với làn nước trong xanh, khu bãi tắm rộng, độ dốc thoai thoải và đặc biệt đẹp thơ mộng nhờ các tảng đá nằm ngay trong bãi tắm tạo nên những đợt sóng biển tung bọt trắng xóa.","Điều đặc biệt ở biển Hồ Cốc không nơi nào có được là biển nằm gần Khu bảo tồn thiên nhiên rừng Bình Châu – Phước Bửu, nên cả không gian lẫn khí hậu ở đây vừa mang chút hơi biển, nhưng lại quyện với hương rừng tạo nên sự mát trong đến lạ. Gió biển không quá nồng và quang cảnh phảng phất chút sức sống của rừng xanh làm cho biển Hồ Cốc có nét hấp dẫn rất riêng."]
+              }
+              ]
+              ,
+            "comments":[
+                {
+                    "id":1,
+                    "name": "Long",
+                    "title":"Hoạt động giải trí tuyệt vời"
+                },
+                {
+                    "id":2,
+                    "name": "An",
+                    "title":"Giá hợp lí"
+                }
+            ]
+    }
+  ]
+  
+}

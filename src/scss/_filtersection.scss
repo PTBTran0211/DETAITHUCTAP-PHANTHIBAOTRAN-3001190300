@@ -1,0 +1,23 @@
+.filtersection{
+    padding:15px 0px;
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0px 5px 0px;
+        border-top: 1px solid rgba(148,151,163,0.15);
+        span{
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden !important;
+            text-overflow: ellipsis;
+        }
+    }
+    &__items{
+        &--item{
+            label{
+                margin-left: 10px;
+            }
+        }
+    }
+}

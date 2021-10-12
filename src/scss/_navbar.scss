@@ -1,0 +1,36 @@
+.navbar-collapse{
+    font-size: 20px;
+}
+.navbar-dark {
+    .navbar-nav{
+        color:white;
+        font-size: 20px;
+        align-items: center;
+        .nav-link{
+            font-size: 20px;
+        }
+    }
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.hotline{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    &__phone{
+        color: orange;
+        text-decoration: none;
+        font-size:40px;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        justify-content: center;
+        &--select{
+            font-size: 12px;
+        }
+    }
+}

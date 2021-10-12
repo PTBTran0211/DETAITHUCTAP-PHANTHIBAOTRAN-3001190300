@@ -1,0 +1,20 @@
+.card{
+    border-radius: 7px;
+    border-color: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:white;
+    float: left;
+    height:360px;
+    width: 100%;
+    &card__title{
+        font-weight: 600;
+    }
+    
+}
+.card:hover{
+    border: solid 10px;
+}

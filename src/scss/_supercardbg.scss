@@ -1,0 +1,28 @@
+.supercardbg{
+    background: white;
+    padding: 0px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    transition: all .2s linear;
+    height: 395px;
+    text-align: left;
+    color:white;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    &__title{
+        line-height: 1;
+        color: white;
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+    &__des{
+        padding: 0 10px;
+    }
+}
+
